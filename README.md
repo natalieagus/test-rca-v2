@@ -15,7 +15,7 @@ ERROR: [Synth 8-6156] failed synthesizing module 'MI_rca_4a107a09' [/media/share
 ERROR: [Synth 8-6156] failed synthesizing module 'MI_alchitryTop' [/media/share/Alchitry/test-rca-v2/build/vivado/test-rca-v2.srcs/sources_1/imports/source/MI_alchitryTop.v:6]
 ```
 
-Issue: the `repeat` loop in `rca.luc`. If compiled with plain connection, it builds successfully and can be run on Alchitry Au
+Issue: the `repeat` loop in `rca.luc`. If compiled with plain connection, it builds successfully and can be run on Alchitry Au.
 
 ```
         repeat(i, SIZE){
@@ -32,3 +32,5 @@ Issue: the `repeat` loop in `rca.luc`. If compiled with plain connection, it bui
         // fa.cin[0] = cin
         // fa.cin[SIZE-1:1] = fa.cout[SIZE-2:0]
 ```
+
+To compare with LucidV1, checkout https://github.com/natalieagus/test-rca-v1.
