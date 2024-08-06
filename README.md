@@ -6,7 +6,7 @@ Tested on:
 - AlchitryLabsV2 1.2.7
 - Vivado 2023.2
 
-See build/vivado/test-rca-v2.runs/synth_1/runme.log:
+See `build/vivado/test-rca-v2.runs/synth_1/runme.log`:
 
 ```
 INFO: [Synth 8-6155] done synthesizing module 'MI_fa' (0#1) [/media/share/Alchitry/test-rca-v2/build/vivado/test-rca-v2.srcs/sources_1/imports/source/MI_fa.v:6]
