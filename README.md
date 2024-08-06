@@ -3,7 +3,7 @@
 Tested on:
 
 - Debian 12.5
-- AlchitryLabsV2 1.2.7
+- AlchitryLabsV2 2.0.11 PREVIEW
 - Vivado 2023.2
 
 See `build/vivado/test-rca-v2.runs/synth_1/runme.log`:
