@@ -14,6 +14,7 @@ module rca #(
         fa.a = a
         fa.b = b
         
+        
         repeat(i, SIZE){
             if (i == 0){
                 fa.cin[0] = cin

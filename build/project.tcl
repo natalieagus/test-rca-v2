@@ -5,7 +5,7 @@ set device xc7a35tftg256-1
 if {[file exists "$projDir"]} { file delete -force "$projDir" }
 create_project $projName "$projDir" -part $device
 set_property design_mode RTL [get_filesets sources_1]
-set verilogSources [list "/media/share/Alchitry/test-rca-v2/build/source/MI_alchitryTop.v" "/media/share/Alchitry/test-rca-v2/build/source/MI_resetConditioner_f28c5f19.v" "/media/share/Alchitry/test-rca-v2/build/source/MI_rca_4a107a09.v" "/media/share/Alchitry/test-rca-v2/build/source/MI_fa.v" ]
+set verilogSources [list "/media/share/Alchitry/test-rca-v2/build/source/MI_alchitryTop.v" "/media/share/Alchitry/test-rca-v2/build/source/MI_resetConditioner_1057bad1.v" "/media/share/Alchitry/test-rca-v2/build/source/MI_rca_5f5ffd4b.v" "/media/share/Alchitry/test-rca-v2/build/source/MI_fa.v" ]
 import_files -fileset [get_filesets sources_1] -force -norecurse $verilogSources
 set xdcSources [list "/media/share/Alchitry/test-rca-v2/build/constraint/alchitry.xdc" ]
 read_xdc $xdcSources

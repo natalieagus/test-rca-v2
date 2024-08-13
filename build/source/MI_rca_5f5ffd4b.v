@@ -7,7 +7,7 @@
   Parameters:
       SIZE = {1000} : 8
 */
-module MI_rca_4a107a09 (
+module MI_rca_5f5ffd4b (
     input [7:0] P_a,
     input [7:0] P_b,
     input P_cin,

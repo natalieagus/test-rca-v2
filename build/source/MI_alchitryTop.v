@@ -22,7 +22,7 @@ module MI_alchitryTop (
   
   reg M_resetCond_in;
   wire M_resetCond_out;
-  MI_resetConditioner_f28c5f19 resetCond (
+  MI_resetConditioner_1057bad1 resetCond (
     .P_clk(P_clk),
     .P_in(M_resetCond_in),
     .P_out(M_resetCond_out)
@@ -32,7 +32,7 @@ module MI_alchitryTop (
   reg M_rca_cin;
   wire M_rca_cout;
   wire [7:0] M_rca_s;
-  MI_rca_4a107a09 rca (
+  MI_rca_5f5ffd4b rca (
     .P_a(M_rca_a),
     .P_b(M_rca_b),
     .P_cin(M_rca_cin),
